@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".show">
+    <TextView
+        android:id="@+id/bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="标题："
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/bt"/>
+    <TextView
+        android:id="@+id/nr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="内容："
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/title"/>
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:textSize="36sp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/nr"/>
+
+
+</RelativeLayout>

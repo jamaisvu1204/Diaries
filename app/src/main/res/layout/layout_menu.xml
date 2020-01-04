@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dp"
+    android:layout_height="match_parent"
+    android:id="@+id/left">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_person_black_24dp"/>
+        <Button
+            style="@style/Menu"
+            android:text="主题"
+            android:drawableStart="@drawable/ic_insert_photo_black_24dp"
+            android:background="#0000"
+            android:drawableEnd="@drawable/ic_keyboard_arrow_right_black_24dp"
+            />
+        <Button
+            style="@style/Menu"
+            android:text="密码设定"
+            android:drawableStart="@drawable/ic_lock_outline_black_24dp"
+            android:background="#0000"
+            android:drawableEnd="@drawable/ic_keyboard_arrow_right_black_24dp"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>
